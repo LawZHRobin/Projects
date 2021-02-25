@@ -5,7 +5,7 @@ import sys
 
 class PC():
     def __init__(self):
-        self.tcp_ip = "192.168.1.85" # RPI IP address
+        self.tcp_ip = "" # RPI IP address
         self.port = 5560
         self.conn = None
         self.client = None
