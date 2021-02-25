@@ -1,7 +1,7 @@
 import socket
 
 # rpi's static pi
-host = '192.168.1.85'
+host = ''
 # port has to the same as server's
 port = 5560
 
