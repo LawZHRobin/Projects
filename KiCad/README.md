@@ -1,5 +1,5 @@
 # KiCad Projects
 
 BluePill_Shield - STM32BluePill and InAir9B by Modtronix <br/>
-<img src="https://github.com/LawZHRobin/Projects/raw/main/KiCad/Images/Schem.PNG" width="300" height="300">
-<img src="https://github.com/LawZHRobin/Projects/raw/main/KiCad/Images/PCB.PNG" width="300" height="300"> <br/>
+<img src="https://github.com/LawZHRobin/Projects/raw/main/KiCad/Images/Schem.PNG" width="300" height="450">
+<img src="https://github.com/LawZHRobin/Projects/raw/main/KiCad/Images/PCB.PNG" width="300" height="450"> <br/>
