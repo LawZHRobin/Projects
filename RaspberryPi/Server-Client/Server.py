@@ -1,3 +1,5 @@
+# Place this code into your RPI
+
 # import the socket module to allow us to setup socket communication
 import socket
 host = ''
