@@ -1,0 +1,12 @@
+{
+    "cmd": ["g++.exe", "-o", "$file_base_name", "$file", "&&", "start", "cmd", "/c", "$file_base_name & echo. & echo. & pause"],
+    "shell": true,
+    "selector": "source.c++, source.cc, source.cpp",
+
+    "variants" : [
+        {
+            "name": "Syntax Check",
+            "cmd": ["g++.exe", "-o", "$file_base_name", "$file", "&&", "start", "cmd", "/c", "$file_base_name & echo. & echo. & pause"]
+        }
+    ]
+}
