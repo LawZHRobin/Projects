@@ -4,7 +4,10 @@ host = ''
 # Pick a port that is unassigned
 port = 5560
 
-storedValue = "Hello from the Server!"
+# Generate secure random number indexes
+import secrets
+# String array holding "secret messages"
+foo = ['compromise', 'reliable', 'temporary', 'control', 'barrel']
 
 def setupServer():
     # type of connection established, specify TCP or UDP
@@ -34,7 +37,8 @@ def setupConnection():
     return conn
 
 def GET():
-    reply = storedValue
+	# Returns a randomly-chosen element from foo
+    reply = secrets.choice(foo)
     return reply
 
 def REPEAT(dataMessage):
@@ -44,7 +48,7 @@ def REPEAT(dataMessage):
 def dataTransfer(conn):
     # loop to allow transmission and receives until told not to.
     while True:
-        data = conn.recv(1024) # receives the data; 1024 = buffer size
+        data = conn.recv(2048) # receives the data; 1024 = buffer size
         # note: python 3 requires us to differentiate between bytes and strings
         # decode to receive data, encode to transmit data
         
