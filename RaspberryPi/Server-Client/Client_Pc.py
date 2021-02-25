@@ -1,8 +1,8 @@
 import socket
 
 # rpi's static pi
-host = '192.168.1.8'
-# port has to the same
+host = '192.168.1.85'
+# port has to the same as server's
 port = 5560
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -13,5 +13,7 @@ while True:
     s.send(str.encode(command))
     reply = s.recv(2048)
     print(reply.decode('utf-8'))
+    if(command == 'EXIT'):
+        break
 
 s.close()
