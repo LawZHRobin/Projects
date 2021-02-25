@@ -37,7 +37,7 @@ def setupConnection():
     return conn
 
 def GET():
-	# Returns a randomly-chosen element from foo
+    # Returns a randomly-chosen element from foo
     reply = secrets.choice(foo)
     return reply
 
