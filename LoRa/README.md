@@ -9,8 +9,6 @@ RAKDAP1
 LoRa Nodes:
 RAK4260, RAK4600
 
-<br/>
-
 <img src="https://github.com/LawZHRobin/Projects/raw/main/LoRa/LoRa-Setup.jpg" width="750" height="500"> <br/>
 
 <br/>
