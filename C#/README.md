@@ -5,4 +5,4 @@ Basic functionalities:
 - Timer/Stopwatch [1]
 
 **[1] Timer will be deducted by 10 seconds.** <br/>
-Used for the game Runescape as being away from the game for more than 5 minutes will cause the player to log out.**
+Developed for the game Runescape as being away for more than 5 minutes will cause the player to log out.**
