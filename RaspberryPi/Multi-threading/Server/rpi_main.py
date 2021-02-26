@@ -23,10 +23,7 @@ class Main(threading.Thread):
                 pMsg = self.pc.read()
                 if not pMsg:
                     break
-                
-                if (pMsg[2] == '1'):
-                    self.sr.write(pMsg[4])
-                    fmessage = '\nPC > Arduino: ' + str(pMsg[4])
+                self.pc.write(str(sMsg))
             except Exception as e:
                 fmessage = '\nError in PC read: ' + str(e)
                 print(fmessage)
