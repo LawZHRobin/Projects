@@ -47,9 +47,6 @@ class Main(threading.Thread):
             self.pc.disconnect()
             fmessage = '\nClosing PC'
             print(fmessage)
-            #self.bt.disconnect()
-            #fmessage = '\nClosing Bluetooth'
-            #print(fmessage)
             self.sr.disconnect()
             fmessage = '\nClosing Serial'
             print(fmessage)
