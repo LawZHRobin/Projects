@@ -144,9 +144,8 @@ int checkStatus()
 
 int computerMove()
 {
-    /*
     int i = -1;
-
+    
     if(random)
     {
         i = 1 + rand() % 9;
@@ -155,12 +154,87 @@ int computerMove()
             random = false;
             return i;
         }
+        // If grid is already marked by player, re-compute
         return computerMove();
     }
-    */
 
-    int i = 1 + rand() % 9;
-    if(grid[i] != 'X')
-        return i;
-    return computerMove();
+    // Computer tries to both block & win
+
+    // Straight
+    if (grid[1] == grid[2] && grid[3] == '3')
+        return 3;
+    else if (grid[1] == grid[3] && grid[2] == '2')
+        return 2;
+    else if (grid[2] == grid[3] && grid[1] == '1')
+        return 1;
+
+    // Straight
+    if (grid[2] == grid[5] && grid[8] == '8')
+        return 8;
+    else if (grid[2] == grid[8] && grid[5] == '5')
+        return 5;
+    else if (grid[5] == grid[8] && grid[2] == '2')
+        return 2;
+
+    // Straight
+    if (grid[3] == grid[6] && grid[9] == '9')
+        return 9;
+    else if (grid[3] == grid[9] && grid[6] == '6')
+        return 6;
+    else if (grid[6] == grid[9] && grid[3] == '3')
+        return 3;
+
+    // Straight
+    if (grid[4] == grid[5] && grid[6] == '6')
+        return 6;
+    else if (grid[4] == grid[6] && grid[5] == '5')
+        return 5;
+    else if (grid[5] == grid[6] && grid[4] == '4')
+        return 4;
+
+    // Straight
+    if (grid[7] == grid[8] && grid[9] == '9')
+        return 9;
+    else if (grid[7] == grid[9] && grid[8] == '8')
+        return 8;
+    else if (grid[8] == grid[9] && grid[7] == '7')
+        return 7;
+
+    // Diagonal
+    if (grid[1] == grid[4] && grid[7] == '7')
+        return 7;
+    else if (grid[1] == grid[7] && grid[4] == '4')
+        return 4;
+    else if (grid[4] == grid[7] && grid[1] == '1')
+        return 1;
+
+    // Diagonal
+    if (grid[1] == grid[5] && grid[9] == '9')
+        return 9;
+    else if (grid[1] == grid[9] && grid[5] == '5')
+        return 5;
+    else if (grid[5] == grid[9] && grid[1] == '1')
+        return 1;
+
+    // Diagonal
+    if (grid[3] == grid[5] && grid[7] == '7')
+        return 7;
+    else if (grid[3] == grid[7] && grid[5] == '5')
+        return 5;
+    else if (grid[5] == grid[7] && grid[3] == '3')
+        return 3;
+
+    // Possible moves to make if there's no better options
+    if (grid[1] == '1')
+        return 1;
+    else if (grid[3] == '3')
+        return 3;
+    else if (grid[5] == '5')
+        return 5;
+    else if (grid[7] == '7')
+        return 7;
+    else if (grid[9] == '9')
+        return 9;
+
+    return 0;
 }
