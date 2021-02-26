@@ -5,7 +5,7 @@ class Arduino(object):
         #self.serial_port = '/dev/ttyACM0'
         #self.serial_port = 'COM8'
         # Symbolic Link from Arduino to RPi
-        self.serial_port = '/dev/serial/by-id/usb-Arduino__www.arduino.cc__0043_75833353035351603131-if00'
+        self.serial_port = '/dev/serial/by-id/<Your Arduino ID>'
         self.baud_rate = 9600
         self.connection = None
 
