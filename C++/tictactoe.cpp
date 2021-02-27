@@ -12,8 +12,9 @@ void drawBoard();
 int main()
 {
     int player = 1, i, choice = -1;
-    char mark;
+    char mark, reset;
 
+start:
     do
     {
         drawBoard();
@@ -80,6 +81,24 @@ int main()
         cout << "==>\aGame draw";
     else
         cout << "Please restart the game!"<< endl;
+
+    cout << "\nWould you like to play again? (Y/N)"<< endl;
+    cin >> reset;
+
+    if(reset == 'Y' || reset =='y')
+    {
+    	int j = 1;
+    	for(j = 1; j < 10; j++)
+    		grid[j] = (char)(j+'0');
+
+    	choice = -1;
+    	player = 1;
+    	i = -1;
+
+    	goto start;
+    }
+    else
+    	cout << "See you next time."<< endl;
 
     cin.ignore();
     return 0;
