@@ -80,7 +80,11 @@ start:
     else if(i == 0)
         cout << "==>\aGame draw";
     else
+    {
         cout << "Please restart the game!"<< endl;
+        cin.ignore();
+        return 0;
+    }
 
     cout << "\nWould you like to play again? (Y/N)"<< endl;
     cin >> reset;
