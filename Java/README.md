@@ -12,4 +12,4 @@ Picasso <br/>
 
 <img src="https://github.com/LawZHRobin/Projects/raw/main/Java/LoginPage.PNG" width="250" height="500"> <br/>
 <img src="https://github.com/LawZHRobin/Projects/raw/main/Java/UserProfile.PNG" width="250" height="500"> <br/>
-<img src="https://github.com/LawZHRobin/Projects/raw/main/Java/realtime-db.PNG" width="300" height="500"> <br/>
+<img src="https://github.com/LawZHRobin/Projects/raw/main/Java/realtime-db.PNG" width="500" height="300"> <br/>
