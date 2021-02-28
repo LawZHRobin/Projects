@@ -1,4 +1,4 @@
-PFSense
+pfSense
 =======
 Just some pictures of pfSense working. <br/>
 Some info omitted. <br/>
