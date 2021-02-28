@@ -1,4 +1,4 @@
-# **Please do not use your personal/actual e-mail or password when testing this application**
+**Please do not use your personal/actual e-mail or password when testing this application**
 
 LoginApp
 ========
