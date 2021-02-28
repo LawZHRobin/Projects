@@ -6,8 +6,7 @@ Dependencies: <br/>
 Firebase - Authentication, Real-time Database, Cloudstore <br/>
 Picasso <br/>
 
-**Please do not use your personal/actual e-mail or password when testing this application** 
-<br/>
+**Please do not use your personal/actual e-mail or password when testing this application.** 
 <br/>
 
 <img src="https://github.com/LawZHRobin/Projects/raw/main/Java/LoginPage.PNG" width="250" height="500"> <br/>
