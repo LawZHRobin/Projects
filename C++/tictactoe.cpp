@@ -81,7 +81,7 @@ start:
         cout << "==>\aGame draw";
     else
     {
-        cout << "Please restart the game!"<< endl;
+        cout << "Please restart the application!"<< endl;
         cin.ignore();
         return 0;
     }
