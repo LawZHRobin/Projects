@@ -1,6 +1,6 @@
 # Keypad Project
-<img src="https://github.com/LawZHRobin/Projects/raw/master/Arduino/Images/Keypad-Servo.jpg" width="300" height="500"> <br/>
-Youtube-Demo URL: https://youtu.be/c64u2Rqo4CU <br/> <br/>
+<img src="https://github.com/LawZHRobin/Projects/raw/master/Arduino/Images/Keypad-Servo.jpg" width="300" height="450"> <br/>
+Youtube-Demo URL: https://youtu.be/c64u2Rqo4CU <br/>
 
 # IR Projects
 
