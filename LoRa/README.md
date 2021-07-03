@@ -6,7 +6,7 @@ https://github.com/RAKWireless/Evaluation_Boards/tree/master/RAK4260 <br/>
 https://www.thethingsnetwork.org/docs/devices/rak811-lora-evaluation-board/connecting-to-ttn.html <br/>
 
 Gateway:
-Dragino LoRa Hat
+Dragino LoRa Hat (Raspberry Pi 3B+)
 
 Tools:
 RAKDAP1
