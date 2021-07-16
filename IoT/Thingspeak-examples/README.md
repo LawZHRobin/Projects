@@ -6,4 +6,4 @@ An Thingspeak example using ESP32 and a DHT11 sensor. <br/>
 
 <img src="https://github.com/LawZHRobin/Projects/raw/master/IoT/Thingspeak-examples/images/DHT11.PNG" width="550" height="100"> <br/>
 
-<img src="https://github.com/LawZHRobin/Projects/raw/master/IoT/Thingspeak-examples/images/Thingspeak.PNG" width="650" height="250"> <br/>
+<img src="https://github.com/LawZHRobin/Projects/raw/master/IoT/Thingspeak-examples/images/Thingspeak.PNG" width="650" height="275"> <br/>
